@@ -15,7 +15,9 @@
 </form>
 <br>
     <?php
-    echo 'Selamat Datang' . $_GET ['nama'];
+   if (isset($_POST['nama'])) {
+    echo 'Selamat Datang ' . $_POST['nama'] . "<br><br>";
+ }
     ?>
     
 <!-- operator  -->
