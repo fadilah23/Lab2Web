@@ -18,7 +18,7 @@
     echo 'Selamat Datang' . $_GET ['nama'];
     ?>
     
-<!-- oprator  -->
+<!-- operator  -->
 
 <p>
 <?php
